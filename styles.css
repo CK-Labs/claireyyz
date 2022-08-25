@@ -1,38 +1,38 @@
 h1 {    
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 50px;
-    padding-right: 10px;
-    color: #e54f1d
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 10px;
+  color: #e54f1d
 }
 
 a {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    color: #FF0101;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #FF0101;
 }
 a:link {
-    text-decoration: none;
-    color: #ff5d27
-  }
-  
-  a:visited {
-    text-decoration: none;
-      color: #02847c
-  }
-  
-  a:hover {
-    text-decoration: underline;
-    color: #e98444
-  }
-  
-  a:active {
-    text-decoration: underline;
-    color: #4ee2d8
-  }
-  
+  text-decoration: none;
+  color: #ff5d27
+}
+
+a:visited {
+  text-decoration: none;
+    color: #02847c
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #e98444
+}
+
+a:active {
+  text-decoration: underline;
+  color: #4ee2d8
+}
+
 li { 
 padding-top: 10px;
 padding-bottom: 10px;
@@ -43,14 +43,9 @@ background-color: #f1f1f1;
 list-style-type: none;
 }
 
-grid-template-columns: 120px 120px 120px;
-grid-template-areas:
-    'header header sidebar'
-    'content content sidebar'
-    'footer  footer footer'
-}
 
 .content {    
+padding: 20px;
 display: grid;
 grid-area: content;    
 grid-gap: 10px;
