@@ -1,15 +1,16 @@
 h1 {    
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
   padding-right: 10px;
   color: #e54f1d
+  text-align: center
 }
 
 a {
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 20px;
+  padding-left: 30px;
   padding-right: 20px;
   color: #FF0101;
 }
@@ -36,7 +37,7 @@ a:active {
 li { 
 padding-top: 10px;
 padding-bottom: 10px;
-padding-left: 20px;
+padding-left: 30px;
 padding-right: 20px;
 border-left: 5px solid #07b0a5;  
 background-color: #f1f1f1;
@@ -45,7 +46,7 @@ list-style-type: none;
 
 
 content {    
-padding: 20px;
+padding: 10px;
 display: grid;
 grid-area: content;    
 grid-gap: 10px;
