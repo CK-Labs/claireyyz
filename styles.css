@@ -1,9 +1,11 @@
 h1 {
 padding-top: 10px;
 padding-bottom: 10px;
-padding-left: 10px;
+padding-left: 50px;
 padding-right: 10px;
 color: #e54f1d
+font-size: 150%;
+
 }
 
 a {
@@ -13,7 +15,26 @@ padding-left: 20px;
 padding-right: 20px;
 color: #FF0101;
 }
-
+a:link {
+    text-decoration: none;
+    color: #ff5d27
+  }
+  
+  a:visited {
+    text-decoration: none;
+      color: #02847c
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: #e98444
+  }
+  
+  a:active {
+    text-decoration: underline;
+    color: #4ee2d8
+  }
+  
 li { 
 padding-top: 10px;
 padding-bottom: 10px;
@@ -25,19 +46,19 @@ list-style-type: none;
 }
 
 .content {
-padding: 20px;
-margin: 10px;
+padding: 15px;
+margin: 0px;
 font-style: italic;
-background-color: #f1f1f1;
-color: #07b0a5
+background-color: #07b0a5;
+color: #ffffff
 }
 
 .footer {
 text-align: center;
 padding: 20px;
 margin: 10px;
-background-color: #f1f1f1;
-color: #07b0a5;
+background-color: #07b0a5;
+color: #ffffff;
 }
 
 body {
