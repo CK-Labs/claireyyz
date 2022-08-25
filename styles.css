@@ -45,7 +45,7 @@ list-style-type: none;
 }
 
 
-content {    
+.content {    
 padding: 10px;
 display: grid;
 grid-area: content;    
@@ -57,7 +57,7 @@ background-color: #07b0a5;
 color: #ffffff
 }
 
-footer {
+.footer {
 text-align: center;
 padding: 20px;
 margin: 10px;
