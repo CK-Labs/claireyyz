@@ -47,9 +47,9 @@ list-style-type: none;
 
 grid-template-columns: 120px 120px 120px;
 grid-template-areas:
-    '....... header header'
-    'sidebar content content'
-    '.......  footer ......';
+    'header header sidebar'
+    'content content sidebar'
+    'footer  footer footer'
 }
 
 .content {    
@@ -64,24 +64,19 @@ color: #ffffff
 }
 
 .footer {
+grid-area: footer;
 text-align: center;
 padding: 20px;
 margin: 10px;
 background-color: #07b0a5;
 color: #ffffff;
-grid-area: footer;
-
 }
 
-.box {
+.sidebar {
+grid-area: sidebar;
 background-color: #0000ff;
 color: #fff;
 border-radius: 5px;
 padding: 10px;
 font-size: 150%;
-}
-
-.header,
-.footer {
-background-color: #999;
 }
