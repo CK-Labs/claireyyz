@@ -1,19 +1,17 @@
 h1 {    
-grid-area: header;
-padding-top: 10px;
-padding-bottom: 10px;
-padding-left: 50px;
-padding-right: 10px;
-color: #e54f1d
-font-size: 150%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 10px;
+    color: #e54f1d
 }
 
 a {
-padding-top: 10px;
-padding-bottom: 10px;
-padding-left: 20px;
-padding-right: 20px;
-color: #FF0101;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #FF0101;
 }
 a:link {
     text-decoration: none;
@@ -64,19 +62,9 @@ color: #ffffff
 }
 
 .footer {
-grid-area: footer;
 text-align: center;
 padding: 20px;
 margin: 10px;
 background-color: #07b0a5;
 color: #ffffff;
-}
-
-.sidebar {
-grid-area: sidebar;
-background-color: #0000ff;
-color: #fff;
-border-radius: 5px;
-padding: 10px;
-font-size: 150%;
 }
